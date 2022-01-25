@@ -10,7 +10,7 @@ import Foundation
 
 struct Module: Decodable, Identifiable {
     
-    var id: UUID?
+    var id: Int
     var category: String
     var content: Content
     var test: Test
